@@ -1,0 +1,163 @@
+
+
+*{
+    margin: 0;
+    
+}
+ul {
+    padding: 0;
+}
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        background: 
+        linear-gradient(135deg, #071b2e, #0f3b5f, #0b2a3d);
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        }
+
+
+/*variaveis */
+:root {
+    --cor-primaria: white;
+    --cor-texto:purple;
+
+}
+.banner {
+    position: relative;
+    max-width: 100%;
+    height: 400px;
+    
+             /* controla a altura do banner */
+        /* base para textos por cima */
+           /* corta excesso da imagem */
+}
+
+/* IMAGEM */
+.bannerImg {
+
+    position:absolute;
+    top: 0;
+
+    left: 0;
+    width: 100%;
+    height: 400px;
+
+    object-fit: cover;
+    z-index: 1;
+}
+.div{
+    
+}
+.bannerNav{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    z-index: 10; /*coloca menu na frente*/
+    right: 200PX;
+    
+    
+}
+.ulHeader{
+    margin-top: 10px;
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+.ulHeader li{
+    padding: 10px 20px;
+    background-color: #3498db;
+    
+    border-radius: 20px; /* deixa arredondado */
+    cursor: pointer;
+}
+
+.ulHeader li:hover {
+    background-color: #217dbb;
+    }
+
+.ulHeader a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#inicio{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 120px;
+    z-index: 1;
+}
+h1{
+    margin: 0;
+}
+#sobre{
+    margin-top: 70px;
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    gap: 50px;
+}
+.divSobre{
+    margin-top: 65px;
+}
+.imgSobre{
+    width: 500x;
+    height: 400px;
+    
+  
+    object-fit: cover;
+    object-position: center top;
+    /* Prioriza o topo da imagem (rosto/cabeça) */
+  
+    border-radius: 14px;
+    border: 5px solid #969696;
+  
+    box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+h1,h2{
+    
+    font-size: 25px;
+    color:#3498db
+
+}
+p{
+    margin-top: 10px;
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+}
+.ulSobre {
+    margin-top: 10px;
+    list-style: none;
+    font-size: 17px;
+}
+
+h2{
+    margin-top: 10px;
+}   
+
+#contato{
+    margin-top: 20px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    
+    margin-left: 60px;
+
+}
+
+.ulContato {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+}
+
+.over a:hover{
+    color: #217dbb;
+}
